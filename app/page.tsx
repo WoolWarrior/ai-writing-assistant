@@ -104,9 +104,9 @@ export default function Home() {
   };
 
   return (
-    <main className="flex h-screen bg-zinc-50 dark:bg-zinc-950 p-4">
+    <main className="flex flex-col md:flex-row h-screen bg-zinc-50 dark:bg-zinc-950 p-4">
       <aside
-        className={`w-80 mr-4 flex flex-col gap-4 transition-opacity duration-300 ${
+        className={`w-full md:w-80 mb-4 md:mb-0 md:mr-4 flex flex-col gap-4 transition-opacity duration-300 ${
           isMounted ? "opacity-100" : "opacity-0"
         }`}
       >

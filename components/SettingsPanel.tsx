@@ -66,7 +66,7 @@ export function SettingsPanel({
 }: SettingsPanelProps) {
   return (
     <aside
-      className={`w-80 mr-4 flex flex-col gap-4 transition-opacity duration-300 ${
+      className={`flex flex-col gap-4 transition-opacity duration-300 ${
         isMounted ? "opacity-100" : "opacity-0"
       }`}
     >

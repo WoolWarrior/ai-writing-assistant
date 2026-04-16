@@ -1,6 +1,5 @@
 export const MODEL_OPTIONS = [
   { value: "/api/free", label: "Free model (gpt-oss-20b)" },
-  { value: "/api/chat", label: "ChatGPT-5-nano" },
 ];
 
 export const ROLE_OPTIONS = [

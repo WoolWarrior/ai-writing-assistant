@@ -36,7 +36,7 @@ export function SessionList({
               onClick={() => onSwitchChat(session.id)}
               className={`w-full text-left justify-start truncate ${
                 session.id === activeSessionId
-                  ? "bg-zinc-200 dark:bg-zinc-800 font-semibold"
+                  ? "font-semibold"
                   : "hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
               }`}
             >
